@@ -40,7 +40,7 @@ body{
 	font-weight: bold;
 	color: #E4393C;
 }
-.topmenu li:hover{
+.topmenu .lihover{
 	border: 1px solid #ddd;
 	border-right: 0;
 	box-shadow: 0 0 8px #575757;
@@ -72,10 +72,10 @@ body{
 	width: 200px;
 	margin: 5px;
 }
-.topmenu li:hover .submenu{
+.topmenu .lihover .submenu{
 	display: block;
 }
-.topmenu li:hover span{
+.topmenu .lihover span{
 	background: #FFFFFF;
 	display: inline-block;
 	z-index: 20;
